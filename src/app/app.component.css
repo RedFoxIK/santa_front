@@ -1,0 +1,15 @@
+.error-block {
+    font-size: 12px;
+    color: grey;
+}
+
+.footer {
+    position: fixed;
+    height: 10%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: grey;
+    text-align: center;
+ }
