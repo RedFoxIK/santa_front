@@ -4,13 +4,14 @@ import { FooterComponent } from './components/footer/footer.component';
 import { LoginComponent } from './components/login/login.component';
 import { Component } from '@angular/core';
 import { AppComponent } from './app.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { NavigatorComponent } from './components/navigator/navigator.component';
 
 export const routes: Routes = [
     {
         path: '',
         pathMatch: 'full',
-        component: AppComponent
+        component: NavigatorComponent
     },
     {
         path: 'login',
